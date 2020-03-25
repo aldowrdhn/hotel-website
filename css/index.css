@@ -2,18 +2,29 @@
     background-color: #231c19;
 }
 
-.jumbotron {
+.main {
     background-image: url(/img/bg.webp);
-    background-position-y: 50%;
-    width: 100%;
+    background-position-y: 55%;
+    background-size: cover;
+
+}
+
+.main h1,
+.main2 h1 {
+    font-weight: 700;
+    font-family: 'Itim', cursive;
+
 }
 
 .reserve {
-    border: 1px solid grey;
+    border: 1px solid rgb(255, 255, 255);
     color: white;
 }
 
-.reserve:hover {
+.reserve:hover,
+.book:hover,
+.join1:hover,
+.join2:hover {
     color: #b84b15;
 }
 
@@ -23,7 +34,33 @@
     background-color: #231c19;
 }
 
-.book:hover {
-    color: #b84b15;
 
+.main2 {
+    background-color: #231c19;
+    ;
+    background-size: cover;
+    background-position-y: 70%;
+    overflow: hidden;
+}
+
+
+.join1 {
+    border: 1px solid rgb(255, 255, 255);
+    color: #231c19;
+    background-color: white;
+}
+
+
+.join2 {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+a:hover {
+    color: #b84b15;
+}
+
+a {
+    color: #231c19;
+    ;
 }
