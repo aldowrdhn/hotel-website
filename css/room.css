@@ -32,3 +32,13 @@ a {
 a:hover {
     color: #b84b15;
 }
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #b84b15;
+}
+
+.detail {
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 14px;
+}

@@ -83,3 +83,12 @@ a {
     color: white;
     font-size: 12px;
 }
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #b84b15;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
