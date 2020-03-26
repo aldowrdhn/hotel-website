@@ -37,6 +37,10 @@ a {
 }
 
 
+.btn:focus {
+    box-shadow: none !important;
+}
+
 .detail {
     font-family: 'Hind Vadodara', sans-serif;
     font-size: 14px;
