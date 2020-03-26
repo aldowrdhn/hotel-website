@@ -1,0 +1,32 @@
+.header {
+    background-color: #231c19;
+}
+
+a:hover {
+    color: #b84b15;
+}
+
+a {
+    color: #231c19;
+    ;
+}
+
+.link {
+    color: white;
+    font-size: 12px;
+}
+
+.submit {
+    border: 1px solid black;
+    color: #ffffff;
+    background-color: #231c19;
+}
+
+.submit:hover {
+    background-color: #b84b15;
+    color: white;
+}
+
+.peta {
+    box-shadow: 1px 1px 50px rgb(230, 229, 229);
+}
